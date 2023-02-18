@@ -9,7 +9,7 @@ function App() {
       misc: 'react js class',
     }
   ]
-  const username = 'someone2';
+  const username = 'someone3';
   return (
     <div className="App">
      {list.map((listItem) => {
