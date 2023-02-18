@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import SampleCard from './sampleCard';
 
 function App() {
   const list = [
@@ -9,10 +10,10 @@ function App() {
       misc: 'react js class',
     }
   ]
-  const username = 'someone3';
+  // const username = 'someone3';
   return (
     <div className="App">
-     {list.map((listItem) => {
+     {/* {list.map((listItem) => {
        return (
          <>
             <h1>{listItem.fullName}</h1>
@@ -21,8 +22,8 @@ function App() {
          </>
        )
      })
-     }
-
+     } */}
+     <SampleCard fullName = 'Azhar' lastName = 'Meer'/>
     </div>
   );
 }
